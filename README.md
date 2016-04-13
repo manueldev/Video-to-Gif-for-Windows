@@ -9,10 +9,10 @@ Convert to Gif format any segment from any video file with this Windows batch sc
 
 ## Usage
 ```shell
-video_to_gif.bat VIDEO_FILE START_TIME(MINUTES:SECONDS) DURATION WIDTH_GIF GIF_FILENAME
+video_to_gif.bat VIDEO_FILE START_TIME DURATION WIDTH_GIF GIF_FILENAME
 ```
 * VIDEO_FILE: Video file (absolute or relative)
-* START_TIME: Start point of segment. Format: 00:11 (Minutes:Seconds)
-* DURATION: Seconds from START_TIME. Format: 0.00
+* START_TIME: Start point of segment. Format: MM:SS.MS
+* DURATION: Seconds from START_TIME. Format: SS.MS
 * WIDTH_GIF: Width of output GIF
 * GIF_FILENAME: GIF output filename (absolute or relative)
